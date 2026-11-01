@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Voice CopyPaste Privacy Policy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,500;7..72,650&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400&display=swap">
+<style>
+/* Layout: one reading column, a short summary card up top, numbered policy sections below. */
+:root {
+  --bg: #fbf8f3;
+  --surface: #ffffff;
+  --fg: #2a2520;
+  --muted: #6b6157;
+  --rule: #e6ddd1;
+  --accent: #c35a00;
+  --accent-soft: #fff1df;
+  --ok: #2f7a4a;
+  --display: "Literata", Georgia, "Times New Roman", serif;
+  --body: "Atkinson Hyperlegible", "Segoe UI", system-ui, sans-serif;
+  --mono: "IBM Plex Mono", Consolas, "Courier New", monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #1b1815; --surface: #24201c; --fg: #ece5dc; --muted: #a89c8e;
+    --rule: #3a332c; --accent: #ff9f4a; --accent-soft: #33261a; --ok: #6cc28d;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #1b1815; --surface: #24201c; --fg: #ece5dc; --muted: #a89c8e;
+  --rule: #3a332c; --accent: #ff9f4a; --accent-soft: #33261a; --ok: #6cc28d;
+  color-scheme: dark;
+}
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--body);
+  font-size: 17px;
+  line-height: 1.6;
+}
+.page {
+  max-width: 44rem;
+  margin: 0 auto;
+  padding-block: 3rem 4rem;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  display: grid;
+  gap: 2rem;
+}
+header { display: grid; gap: .5rem; }
+.eyebrow {
+  font-size: .78rem;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-weight: 700;
+}
+h1 {
+  font-family: var(--display);
+  font-weight: 650;
+  font-size: clamp(2rem, 6vw, 2.7rem);
+  line-height: 1.15;
+  margin: 0;
+  text-wrap: balance;
+}
+.meta { color: var(--muted); font-size: .92rem; margin: 0; }
+.summary {
+  background: var(--accent-soft);
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  padding: 1.25rem 1.4rem;
+  display: grid;
+  gap: .6rem;
+}
+.summary h2 { margin: 0; font-size: 1.05rem; font-family: var(--body); font-weight: 700; }
+.summary ul { margin: 0; padding-left: 1.2rem; display: grid; gap: .35rem; }
+.summary li::marker { color: var(--ok); }
+section { display: grid; gap: .6rem; border-top: 1px solid var(--rule); padding-top: 1.5rem; }
+h2 {
+  font-family: var(--display);
+  font-weight: 500;
+  font-size: 1.35rem;
+  margin: 0;
+  text-wrap: balance;
+}
+p, ul { margin: 0; }
+ul { padding-left: 1.2rem; display: grid; gap: .3rem; }
+code {
+  font-family: var(--mono);
+  font-size: .86em;
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  padding: .05em .35em;
+  overflow-wrap: anywhere;
+}
+.contact {
+  display: flex; flex-wrap: wrap; align-items: center; gap: .6rem;
+}
+.email {
+  font-family: var(--mono);
+  font-size: .95rem;
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+  padding: .35rem .6rem;
+  user-select: all;
+  overflow-wrap: anywhere;
+}
+button {
+  font: inherit; font-size: .9rem;
+  color: var(--accent);
+  background: transparent;
+  border: 1px solid var(--accent);
+  border-radius: 6px;
+  padding: .3rem .7rem;
+  cursor: pointer;
+}
+button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+a { color: var(--accent); }
+footer { color: var(--muted); font-size: .88rem; border-top: 1px solid var(--rule); padding-top: 1.2rem; }
+</style>
+
+</head>
+<body>
+<main class="page">
+  <header>
+    <div class="eyebrow">Voice CopyPaste for Windows</div>
+    <h1>Privacy Policy</h1>
+    <p class="meta">Effective 1 November 2026 · Applies to Voice CopyPaste 1.0 and later</p>
+  </header>
+
+  <div class="summary" role="note">
+    <h2>In short</h2>
+    <ul>
+      <li>The app works fully offline. It never connects to the internet.</li>
+      <li>Your voice is recognized on your PC and is never recorded or sent anywhere.</li>
+      <li>What you copy stays in your PC's memory and is never saved to disk by the app.</li>
+      <li>The developer receives no data from the app. There are no accounts, ads, analytics or tracking.</li>
+    </ul>
+  </div>
+
+  <section>
+    <h2>1. Who we are</h2>
+    <p>Voice CopyPaste is developed by Paolo Panicali, publishing on the Microsoft Store as “ppanicali”. For any privacy question, write to the address in section 9.</p>
+  </section>
+
+  <section>
+    <h2>2. Data the app does not collect</h2>
+    <p>Voice CopyPaste does not collect, transmit, sell or share any personal data. It has no network permission in its Windows package and blocks network access in its own code at startup. It contains no analytics, advertising, crash reporting or telemetry components.</p>
+  </section>
+
+  <section>
+    <h2>3. Microphone</h2>
+    <p>The app uses the microphone to recognize a small set of English voice commands such as “copy”, “paste” and “switch window”. Speech recognition runs entirely on your PC with an offline engine (Vosk). Audio is processed in memory a fraction of a second at a time and then discarded. It is never written to a file and never leaves your computer.</p>
+    <p>You can turn microphone access off at any time in Windows Settings › Privacy &amp; security › Microphone.</p>
+  </section>
+
+  <section>
+    <h2>4. Text you copy</h2>
+    <p>The app keeps a short history of the text you copy so you can paste it again by number. This history exists only in memory while the app is running and is cleared when you close it. The app does not save it to disk.</p>
+    <p>Copying and pasting go through the Windows clipboard. If you have turned on Windows clipboard history or clipboard sync across devices, those are Windows features governed by Microsoft’s settings, not by this app.</p>
+  </section>
+
+  <section>
+    <h2>5. Files stored on your PC</h2>
+    <p>The app stores two kinds of files in its own data folder on your PC:</p>
+    <ul>
+      <li><strong>Settings</strong>: window preferences such as theme and history size.</li>
+      <li><strong>Diagnostic log</strong>: the time of each recognized command, audio input levels and error messages. The log records only the length of copied text and of window titles, never their content. It is limited to about 4 MB and old entries are deleted automatically.</li>
+    </ul>
+    <p>The folder is <code>%LOCALAPPDATA%\Packages\ppanicali.VoiceCopyPaste_n3d77pxdbga4e\LocalState</code>. Windows deletes it when you uninstall the app.</p>
+  </section>
+
+  <section>
+    <h2>6. Sending the log file</h2>
+    <p>The app never sends the log by itself. If you report a problem, you may choose to attach the log file to an email to the developer. It will be used only to fix the problem and deleted afterwards.</p>
+  </section>
+
+  <section>
+    <h2>7. Microsoft Store</h2>
+    <p>Microsoft may collect data when you download, install or update the app through the Microsoft Store, such as installation and crash information. That data is collected by Microsoft under the <a href="https://privacy.microsoft.com/privacystatement" rel="noopener">Microsoft Privacy Statement</a>. The developer may see aggregated, anonymous statistics from Microsoft, such as download counts.</p>
+  </section>
+
+  <section>
+    <h2>8. Children</h2>
+    <p>The app collects no personal data from anyone, including children under 13.</p>
+  </section>
+
+  <section>
+    <h2>9. Changes and contact</h2>
+    <p>If this policy changes, the new version will be published at this address with a new effective date.</p>
+    <div class="contact">
+      <span class="email" id="email">paolo.panicali@gmail.com</span>
+      <button type="button" id="copy-email">Copy email</button>
+    </div>
+  </section>
+
+  <footer>Voice CopyPaste · Offline voice copy and paste for Windows</footer>
+</main>
+
+<script>
+document.getElementById("copy-email").addEventListener("click", function () {
+  var btn = this;
+  var text = document.getElementById("email").textContent;
+  function selectIt() {
+    var r = document.createRange();
+    r.selectNodeContents(document.getElementById("email"));
+    var s = window.getSelection(); s.removeAllRanges(); s.addRange(r);
+  }
+  try {
+    navigator.clipboard.writeText(text).then(function () {
+      btn.textContent = "Copied";
+      setTimeout(function () { btn.textContent = "Copy email"; }, 1500);
+    }, selectIt);
+  } catch (e) { selectIt(); }
+});
+</script>
+</body>
+</html>
